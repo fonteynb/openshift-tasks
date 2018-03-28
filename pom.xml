@@ -59,7 +59,7 @@
         </repository>
     </repositories>
 
-   <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>releases</id>
             <name>Opticca Releases Repository</name>
