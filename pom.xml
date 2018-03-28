@@ -59,14 +59,18 @@
         </repository>
     </repositories>
 
-    <distributionManagement>
+   <distributionManagement>
         <repository>
-            <id>nexus</id>
-            <url>http://nexus:8081/content/repositories/releases</url>
+            <id>releases</id>
+            <name>Opticca Releases Repository</name>
+            <url>http://nexus-cicd.192.168.86.162.nip.io/repository/maven-releases</url>
+            <layout>default</layout>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
-            <url>http://nexus:8081/content/repositories/snapshots</url>
+            <id>snapshots</id>
+            <name>Opticca Snapshots Repository</name>
+            <url>http://nexus-cicd.192.168.86.162.nip.io/repository/maven-snapshots/</url>
+            <layout>default</layout>
         </snapshotRepository>
     </distributionManagement>
 
